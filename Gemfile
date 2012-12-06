@@ -8,6 +8,7 @@ gemspec
 # Gems used by the dummy application
 gem "jquery-rails"
 gem "sqlite3"
+gem "jasmine-headless-webkit", git: "git@github.com:lcoq/jasmine-headless-webkit.git"
 
 group :test do
   gem 'rspec-rails'
